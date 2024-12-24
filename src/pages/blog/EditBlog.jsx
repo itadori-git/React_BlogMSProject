@@ -2,13 +2,12 @@ import React from 'react'
 import Layout from '../../components/layout/Layout'
 import Form from '../../pages/blog/components/form/Form'
 
-function AddBlog() {
+function EditBlog() {
   return (
     <Layout>
-        <Form type="Create"/>
+        <Form type="Edit"/>
     </Layout>
-    
   )
 }
 
-export default AddBlog
+export default EditBlog
